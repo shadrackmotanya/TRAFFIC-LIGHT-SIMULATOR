@@ -1,0 +1,30 @@
+body{
+text-align: center;
+font-family: Arial;
+margin-top: 50px;
+background-color: aquamarine;
+}
+
+.traffic-light{
+background: black;
+width: 80px;
+padding: 10px;
+margin: auto;
+border-radius: 15px;
+}
+
+.light{
+width: 50px;
+height: 50px;
+background: grey;
+margin: 10px auto;
+border-radius: 50%;
+}
+
+button{
+margin-top: 20px;
+padding: 10px;
+border-radius: 20px;
+background-color: black;
+color: white;
+}
