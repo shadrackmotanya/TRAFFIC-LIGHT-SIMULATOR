@@ -2,25 +2,56 @@
 <html>
 
 <head>
-<title>Traffic Light Simulator</title>
-<link rel="stylesheet" href="style.css">
+    <title>Traffic Light Simulator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h2>Traffic Light Simulator</h2>
+    <h2>🚦 Traffic Light Simulator</h2>
+    <p style="font-weight: bolder;">Masterpiece done By Motanya</p>
 
-<div class="traffic-light">
+    <p class="intro">
+        Welcome to a simple traffic control simulation. Watch how vehicles respond to light changes in a controlled system.
+        (No real drivers were confused in the making of this 😄)
+    </p>
 
-<div id="red" class="light"> <br> Stop</div>
-<div id="yellow" class="light"> <br> Ready</div>
-<div id="green" class="light"> <br> Go</div>
+    <div class="traffic-light">
 
-</div>
+        <div id="red" class="light">
+            <br> 🛑 STOP
+        </div>
 
-<button onclick="changeLight()">Change Light</button>
+        <div id="yellow" class="light">
+            <br> ⚠️ READY
+        </div>
 
-<script src="script.js"></script>
+        <div id="green" class="light">
+            <br> 🚗 GO
+        </div>
+
+    </div>
+
+    <div class="controls">
+        <button onclick="startTraffic()">Start System</button>
+        <button onclick="stopTraffic()">Stop System</button>
+    </div>
+
+    <p id="status" class="status">
+        System idle... press start to begin traffic flow 🚦
+    </p>
+
+    <div class="info">
+        <h3>How it works</h3>
+        <ul>
+            <li>Red = Vehicles must stop completely 🛑</li>
+            <li>Yellow = Prepare to move ⚠️</li>
+            <li>Green = Go safely 🚗</li>
+            <li>The system cycles automatically like a real intersection</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
 
